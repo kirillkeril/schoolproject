@@ -1,0 +1,59 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+html{
+    min-height: 100%;
+    max-width: 100%;
+}
+nav{
+    min-width: 650px;
+}
+.accent{
+    min-width: 400px;
+    font-size: 100%;
+    background: #e0e0e0;
+    padding: 5px 20px 30px 20px;
+    border-radius: 10px;
+}
+.accent .Title{
+    font-size: 150%;
+    font-weight: 600;
+}
+.details .btn{
+    margin-top: 50px;
+}
+body{
+    background: linear-gradient(180deg, rgba(109,76,65,1) 0%, rgba(78,52,46,1) 71%, rgba(62,39,35,1) 100%);
+}
+label{
+    color: #424242!important;
+}
+.custom-label{
+    color: #4d4d4d!important;
+}
+input.custom-input{
+    border-bottom: 1px solid #6e6e6e !important;
+    box-shadow: 0 1px 0 0 #9e9e9e;
+}
+input.custom-input:focus{
+    border-bottom: 1px solid #e64a19!important;
+    box-shadow: 0 1px 0 0 #e64a19;
+}
+input.custom-input+label{
+    color: #9e9e9e!important;
+}
+input.custom-input:focus + label{
+    color: #e64a19!important;
+}
+textarea.custom-input{
+    border-bottom: 1px solid #6e6e6e !important;
+    box-shadow: 0 1px 0 0 #9e9e9e;
+}
+textarea.custom-input:focus{
+    border-bottom: 1px solid #e64a19!important;
+    box-shadow: 0 1px 0 0 #e64a19;
+}
+textarea.custom-input+label{
+    color: #9e9e9e!important;
+}
+textarea.custom-input:focus + label{
+    color: #e64a19!important;
+}

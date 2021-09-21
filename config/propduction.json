@@ -1,0 +1,5 @@
+{
+  "port": "5000",
+  "jwt-secret-key": "it is secret key",
+  "mongoUrl": "mongodb+srv://kirill:26zp2j62@schoolproject.a01wg.mongodb.net/Books?retryWrites=true&w=majority"
+}
