@@ -6,6 +6,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "express": "^4.17.1",
     "json-web-token": "^3.2.0",
     "jsonwebtoken": "^8.5.1",
     "materialize-css": "^1.0.0-rc.2",
@@ -16,7 +17,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -27,7 +28,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "http://localhost:5000",
+  "proxy": "https://literature4essay.herokuapp.com/",
   "browserslist": {
     "production": [
       ">0.2%",
