@@ -8,7 +8,13 @@ const mongoose = require('mongoose')
 
 const PORT = process.env.PORT || config.get('port') || 5000
 const app = express()
-//app.use(cors)
+app.use(
+    cors({
+        credentials: true,
+        origin: ["https://luterature4essayclient.herokuapp.com"],
+        optionsSuccessStatus: 200
+    })
+);
 app.use(express.json())
 app.use(bodyParser.json({limit: '100kb'}))
 app.use("/api/auth/", require('./routes/auth.routes.js'))
