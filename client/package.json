@@ -28,7 +28,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "https://literature4essay.herokuapp.com/",
+  "proxy": "https://protected-savannah-77026.herokuapp.com/",
   "browserslist": {
     "production": [
       ">0.2%",
